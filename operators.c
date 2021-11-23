@@ -10,7 +10,5 @@ int main()
     // result=num1/num2;
     result=num1%num2; //to find remainder
     printf("aman is %d ",result);
-
-    
     return 0;
 }
