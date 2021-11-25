@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int num;
-    printf("enter the number :");
-    scanf("%d",&num);
-    if (num <12)
+    int age;
+    printf("enter the age :");
+    scanf("%d",&age);
+    if (age <12)
     {
         printf("less than 12 yr \n");
     }
-    else if (num<18)
+    else if (age<18)
     {
         printf("less than 18 \n");
     }
-    else if(num==18)
+    else if(age==18)
     {
         printf("equal to 18 \n");
     }
