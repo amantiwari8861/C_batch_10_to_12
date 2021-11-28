@@ -7,7 +7,7 @@ int main()
 
     switch(days)
     {
-        case 7:printf("monday \n");
+        case 1:printf("monday \n");
         break;
         case 2:printf("tue \n");
         break;
@@ -19,7 +19,7 @@ int main()
         break;
         case 6:printf("sat \n");
         break;
-        case 1:printf("sun \n");
+        case 7:printf("sun \n");
         break;
         default:printf("invalid case!");
         break;
