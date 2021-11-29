@@ -1,18 +1,17 @@
 #include<stdio.h>
-
+#include<windows.h>
 int main()
 {
     // int num1,term;
     // printf("enter the num and term \n");
     // scanf("%d%d",&num1,&term);//2 5
-
     // for (int i = 1; i <= term; i++)
     // {
     //     printf(" %d X %d = %d \n",num1,i,num1*i);
     // }
     // printf("%d ",1%10);
     int num,rem,sum=0;
-
+    system("color 83");
     printf("enter the number :");
     scanf("%d",&num);
 
