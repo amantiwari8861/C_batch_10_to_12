@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int matr1[3][3],matr2[3][3],matr3[3][3];
