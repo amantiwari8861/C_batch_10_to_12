@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.java": "java",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "conio.h": "c"
     }
 }

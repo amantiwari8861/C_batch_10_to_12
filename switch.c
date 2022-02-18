@@ -1,24 +1,28 @@
 #include<stdio.h>
 int main()
 {
-    int choice;
-    printf(" 1. start the game \n 2.go to settings \n 3.Quit \n");
-    printf("enter the choice :");
-    scanf("%d",&choice);
-    switch (choice)// int ,char 
-    {
-        case 1:
-            printf("Starting the game \n");
-            break;
-        case 2:
-            printf(" Opening settings \n");
-            break;
-        case 3:
-            printf("Quiting the game \n");
-            break;
-        default:printf("invalid input !! \n");
-            break;
-    }
+    int day;
+    printf("enter the day :");
+    scanf("%d",&day);
 
+    switch(day)
+    {
+        case 54:  printf("Monday \n");
+                break;
+        case 2:  printf("tuesday \n");
+                break;
+        case 3:  printf("wednesday \n");
+                break;
+        case 4:  printf("thrusday \n");
+                break;
+        case 5:  printf("friday \n");
+                break;
+        case 6:  printf("saturday \n");
+                break;
+        case 7:  printf("sunday \n");
+                break;
+        default:  printf("invalid day\n");
+                break; 
+    }
     return 0;
 }

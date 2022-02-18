@@ -2,45 +2,29 @@
 
 int main()
 {
-    //for loop , while ,do-while 
+    //1.for 2.while 3.do-while
+    // int a,b; //declaration
 
-    int a; //declaration
-    // a=10; //initialization (assignment)
-    // int b=20; //declaration and initialization
-
-    // a++; // 10+1 =>11
-    // b--; // 20-1 =>19
-
-    /*syntax : 
-                for(initialization ; condition ; increment/decrement)
-                {
-                    statements to be repeated
-                }
-    */
-//    for(;;)
-//     {
-//         printf(" the value of a is %d \n",a);
-//     }
-    // condition (tells us how many times we have to execute )
-
-
-   for(a=10;a<20;a++)
+    /* for(initialization;condition;increment/decrement)
     {
-        printf(" the value of a is %d \n",a);
-        
+        //statements
+    } */
+    /* for (a = 2; a < 11; a++)
+    {
+        printf(" %d \n",a);
+    } */
+   /*  for (int i = 10; i >0; i--) // c17 or c99
+    {
+      printf("%d \n",i);  
     }
-    //10 < 20 always true  
-    //11 < 20 always true  
-    //12 < 20 always true  
-    //. < 20 always true  
-    //. < 20 always true  
-    //19 < 20 always true  
-    //20 < 20 false then it will not run  
+    for (;;)
+    {
+        printf("infinite for loop\n");
+    } */
+    /* for (a=10,b=40;a<20 && b>20;a++,b--)
+    {
+        printf("a= %d & b= %d\n",a,b);
+    } */
+    
     return 0;
 }
-
-    // printf("hello my name is aman \n");
-    // printf("hello my name is aman \n");
-    // printf("hello my name is aman \n");
-    // printf("hello my name is aman \n");
-    // printf("hello my name is aman \n");

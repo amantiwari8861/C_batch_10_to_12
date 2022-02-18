@@ -1,43 +1,44 @@
 #include<stdio.h>
-#include<windows.h>
 int main()
 {
-    // int num1,term;
-    // printf("enter the num and term \n");
-    // scanf("%d%d",&num1,&term);//2 5
-    // for (int i = 1; i <= term; i++)
-    // {
-    //     printf(" %d X %d = %d \n",num1,i,num1*i);
-    // }
-    // printf("%d ",1%10);
-    int num,rem,sum=0;
-    system("color 83");
-    printf("enter the number :");
-    scanf("%d",&num);
+    int num=5,step=4,i;
 
-    int originalno=num;
-    // for(;num>0;)
-    //initialization
-    while(num>0)
+    for ( i = 1; i <= step; i++)
     {
-        rem=num%10;
-        sum=sum+rem*rem*rem;
-        num=num/10;
-        //inc /dec 
-    }
-
-    // printf("the result is %d \n",sum);
-
-    if (sum==originalno)
-    {
-        printf("this is Armstrong no.");
-    }
-    else
-    {
-        printf("not a armstrong no.");
+        printf("%d X %d = %d \n",num,i,num*i);
     }
     
+    /*    psuedocode (Dry Run)
+    step 1:   i=1 , num=5 ,step=4
+               i <= step
+               1<=4 true
+              num X i = num*i
+                5 X 1 = 5
+
+    step 2:   i=2 , num=5 ,step=4
+                i <= step
+                2<=4 true
+                  num X i = num*i
+                 5 X 2 = 10
+
+    step 3:   i=3 , num=5 ,step=4
+                i <= step
+                3<=4 true
+                  num X i = num*i
+                 5 X 3 = 15
     
+    step 4:   i=4 , num=5 ,step=4
+                i <= step
+                4<=4 true
+                  num X i = num*i
+                 5 X 4 = 20
+    
+    step 5:   i=5 , num=5 ,step=4
+                i <= step
+                5<=4 false
+                loop terminates.
+    */
+
 
 
 

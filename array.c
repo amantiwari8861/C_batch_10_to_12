@@ -1,23 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    // int marks[4]={10,20,30,30};
-    // int marks[]={10,20,30,30};
-    int marks[4];
-    // marks[0]=10;
-    // marks[1]=20;
-    // marks[2]=30;
-    // marks[3]=40;
-    for (int i = 0; i < 4; i++)
-    {
-        printf("enter the marks of %d :\n",i);
-        scanf("%d",&marks[i]);
-    }
-    for (int i = 0; i < 4; i++)
-    {
-        printf(" the marks[%d] = %d \n",i,marks[i]);
-    }
-    
+    int a[5];
+    a[0] = 10;
+    a[1] = 20;
+    a[2] = 30;
+    a[3] = 40;
+    // a[4] = 50;
+    scanf("%d",&a[4]);
+
+    printf("%d \n", a[0]);
+    printf("%d \n", a[1]);
+    printf("%d \n", a[2]);
+    printf("%d \n", a[3]);
+    printf("%d \n", a[4]);
+
 
     return 0;
 }
