@@ -1,13 +1,20 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-    int num;
-    printf("enter the num\n");
-    scanf("%d",&num);
-    if(num==18)//true block
+    int age;
+    printf("enter ur age : ");
+    scanf("%d",&age);
+    if(age >= 18)
     {
-        printf("equal to 18 \n");
+        printf("you are eligible for vote !");
     }
-    printf("after if code \n");
+
+    else
+    {
+        printf("u r not eligible !");
+    }
+    
+    getch();
     return 0;
 }

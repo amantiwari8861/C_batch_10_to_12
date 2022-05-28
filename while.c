@@ -1,23 +1,19 @@
 #include<stdio.h>
-
 int main()
 {
-	/* int a=3;
-	while(a<12)
+	int num;
+	printf("Enter the number:");
+	scanf("%d",&num);
+
+	// while(num>0)
+	// {
+	// 	printf("%d\n",num);
+	// 	num--;
+	// }
+	do
 	{
-		printf("a = %d \n",a);
-		a++;
-	} */
-
-	// int b=10;
-	int b=-10;
-	while (b>0)
-	{
-		printf("%d \n",b);
-		b--;
-	}
-	
-
-
+		printf("%d\n",num);
+		num--;
+	} while (num<0);
 	return 0;
 }
