@@ -1,0 +1,4 @@
+
+Q1. take a number from user and reverse it.  eg 123  -> 321
+Q2. check whether a number is palindrome or not.
+eg. 12321

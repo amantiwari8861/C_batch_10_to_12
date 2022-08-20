@@ -7,7 +7,7 @@ int main()
     printf("i am in main fxn after \n");
     return 0;
 }
-void greet()//defination
+void greet()//defination(body)
 {
     printf("good morning everyone \n");
 }
